@@ -1,0 +1,57 @@
+body {
+    
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    background-image: url("b11.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    
+    
+}
+.form {
+    display:grid;
+    border: 2px solid black;
+    backdrop-filter: blur(2px);
+    
+    width: 50%;
+    height: 10%;
+    margin: 50px auto;
+    padding: 20px 50px;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
+    border-radius: 12px;
+    display: grid;
+    gap: 20px;
+    color: white;
+
+}
+.form h1 {
+    color: white;
+}
+
+button {
+    
+    
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 40%;
+    background-color:green;
+    color: white;
+}
+.btncolor{
+    background-color: green;
+}
+.date-l-t{
+    display: flex;
+    flex-direction: row;
+}
